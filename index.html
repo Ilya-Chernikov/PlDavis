@@ -49,8 +49,10 @@
         rightS.classList.add('rightS');
         let svg = rightS.parentElement;
         svg.style.height="2000px";
+        svg.style.width = "600px";
         let rightS_text = document.getElementById('ldavis_el999641405444265449285056041634-lambdaInput');
         rightS_text.classList.add('rightSText');
+        rightS_text.parentElement.firstElementChild.classList.add('rightSText');
     }, 500)
 </script>
     <style>
@@ -60,7 +62,7 @@
 
     .rightSText{
         position: absolute;
-        left: 20px;
+        left: 10px;
         top:800px;
     }
 </style>
