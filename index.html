@@ -43,5 +43,25 @@
             })
         });
     }
+    
+       setTimeout(()=>{
+        let rightS = document.getElementById('ldavis_el999641405444265449285056041634-bar-freqs');
+        rightS.classList.add('rightS');
+        let svg = rightS.parentElement;
+        svg.style.height="2000px";
+        let rightS_text = document.getElementById('ldavis_el999641405444265449285056041634-lambdaInput');
+        rightS_text.classList.add('rightSText');
+    }, 500)
 </script>
+    <style>
+    .rightS{
+        transform: translate(40px, 875px) !important;
+    }
+
+    .rightSText{
+        position: absolute;
+        left: 20px;
+        top:800px;
+    }
+</style>
 </body>
