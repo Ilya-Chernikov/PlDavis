@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 1210px) {
+    .rightS{
+        transform: translate(40px, 875px) !important;
+    }
+
+    .rightSText{
+        position: absolute;
+        left: 10px;
+        top:800px;
+    }
+
+
+    .svg{
+        height: 1500px !important;
+        width: 600px !important;
+    }
+
+    #currentTheme {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    #currentTheme p {
+        padding: 10px;
+    }
+
+    #currentTheme h1 {
+        padding: 10px;
+    }
+
+    body{
+        width: 100vw;
+    }
+
+}
+
+
+
