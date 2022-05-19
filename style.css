@@ -26,11 +26,12 @@
     }
 
     #currentTheme p{
-        width:80%
+        width:80%;
+        font-size: 25px;
     }
 
     #currentTheme h1{
-        width:80%
+        width:80%;
     }
 
 
