@@ -594,6 +594,10 @@ var LDAvis = function(to_select, data_or_file_name, color1, color2) {
             .attr("font-size", "12px")
             .text("(1)");
 
+        
+        let event = new Event("data-loaded");
+        window.dispatchEvent(event);
+        
         // barchart axis adapted from http://bl.ocks.org/mbostock/1166403
         var xAxis = d3.axisTop(x)
             .tickSize(0)
