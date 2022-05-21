@@ -50,7 +50,7 @@
         });
     }
 
-    setTimeout(()=>{
+   const addLogicAndStyles = ()=>{
         let rightS = document.getElementById('ldavis_el999641405444265449285056041634-bar-freqs');
         rightS.classList.add('rightS');
         let svg = rightS.parentElement;
@@ -64,7 +64,9 @@
         const curT = new window.currentTheme();
         document.querySelector('#currentTheme').append(...curT.element.childNodes);
 
-    }, 1000)
+    }
+
+    window.addEventListener("data-loaded", addLogicAndStyles);
 
 </script>
 
